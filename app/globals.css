@@ -981,3 +981,26 @@
 .custom-scrollbar [data-slot='table-container']::-webkit-scrollbar-thumb:hover {
   background: #171a34;
 }
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-draw {
+  animation: draw 2.5s ease-out forwards;
+}
