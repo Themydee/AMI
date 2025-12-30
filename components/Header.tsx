@@ -15,30 +15,30 @@ const Header = () => {
 
         <nav>
           <Link
-            href="/prices"
+            href="#"
             className={
-              pathname === "/prices" ? "nav-link is-active" : "nav-link"
+              pathname === "#" ? "nav-link is-active" : "nav-link"
             }
           >
             Prices
           </Link>
           <Link
-            href="/market"
+            href="#"
             className={
-              pathname === "/market" ? "nav-link is-active" : "nav-link"
+              pathname === "#" ? "nav-link is-active" : "nav-link"
             }
           >
             Market
           </Link>
           <Link
-            href="/data"
-            className={pathname === "/data" ? "nav-link is-active" : "nav-link"}
+            href="#"
+            className={pathname === "#" ? "nav-link is-active" : "nav-link"}
           >
             Data Sources
           </Link>
         </nav>
 
-        <Link href="/login">Login</Link>
+        <Link href="#">Login</Link>
       </div>
     </header>
   );
